@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+}
+
+#main-container{
+  width: 100%;
+}
+
+.all_bands{
+  width: 600px;;
+  margin: 0 auto;
+  position:relative;
+  top:65px;
+}
+#nav{
+  background-color: WhiteSmoke;
+  width:100%;
+  position: fixed;
+  height: 50px;
+  text-align: center;
+  z-index: 5;
+}
+
+
+#nav h2{
+  display: inline-block;
+  margin: 10px ;
+  font-size: 30px;
+}
+#nav p{
+
+  display: inline-block;
+  text-align: right;
+  position:absolute;
+  right: 10%;
+  top: 20px;
+  font-size: 10px;
+}
+
+#banner img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50px;
+}
+.band{
+  margin: 15px 0;
+  background-color: Whitesmoke;
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  display: inline-block;
+}
+.band img{
+  width: 100%;
+  height: auto;
+}
+
+.band h3, p, a{
+  color: #2d2d2d;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+
+  text-decoration: none;
+}
